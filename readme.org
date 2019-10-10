@@ -1,0 +1,8 @@
+* Simplified Pytorch Implementation of OpenAI PPO2
+
+** Features
+- Discrete/ continuous action space
+- Value Network (shared / copy policy net or customized)
+  - copy policy network only supports non-recurrent network
+    (OpenAI has not supported this yet [[https://github.com/openai/baselines/blob/f703776c91ccec5c6cb4fb442756cbf309f67ba0/baselines/common/policies.py#L165][OpenAI Repo]])
+- 
